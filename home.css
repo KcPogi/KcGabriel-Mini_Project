@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-image: linear-gradient(rgba(120, 101, 101, 0.548), rgba(0, 0, 0, 0.7)), url(Home/Bg.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    margin: 25px 0;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fffbfb;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color:#B59F78;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 0;
+}
+
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.col-1 h2{
+    font-size: 80px;
+    color: aliceblue;
+}
+
+.col-1 h4{
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 100;
+    margin: 10px 0 5px;
+
+}
+
+.col-1 p{
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center; 
+    padding: 20px;
+    background-color: #f1f1f114;
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px; 
+    color: #fff;
+}
+
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(#f1f0e882,#e5e1da84,#b3c8cf84,#89a8b282);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+button img{
+    width: 30px;
+    display: none;
+}
+
+button:hover img{
+    display: block;
+}
+
+button:hover{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button a{
+    text-decoration: none;
+    color: black;
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s
+}
+
+.card1{
+    background-image: url(Home/Bg.jpg);
+}
+
+.card2{
+    background-image: url(Tourist/2.jpg);
+}
+
+.card3{
+    background-image: url(About/1.jpg);
+}
+
+.card4{
+    background-image: url(Food/Pako.JPG);
+}
+
+.card5{
+    background-image: url(Tourist/1.jpg);
+}
+
+.card6{
+    background-image: url(Tourist/kNSJ.jpg);
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
